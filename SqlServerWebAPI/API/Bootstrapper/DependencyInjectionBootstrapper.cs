@@ -17,6 +17,7 @@ namespace API.Bootstrapper
         public static IServiceCollection AddDependencyInjection(this IServiceCollection @this)
         {
             @this.AddScoped<IUnitOfWork, UnitOfWork>();
+            @this.AddScoped<IDbContext, DbContext>();
             return @this;
         }
     }
