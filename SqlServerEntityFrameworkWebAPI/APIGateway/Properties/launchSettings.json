@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
@@ -9,23 +9,25 @@
     }
   },
   "profiles": {
-    "APIGateway": {
+    "Development": {
       "commandName": "Project",
-      "dotnetRunMessages": "true",
-      "launchBrowser": true,
-      "hotReloadProfile": "aspnetcore",
       "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "MODE": "Development"
       }
     },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
+    "Staging": {
+      "commandName": "Project",
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "MODE": "Staging"
+      },
+      "sqlDebugging": true
+    },
+    "Production": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MODE": "Production"
       }
     }
   }

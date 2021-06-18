@@ -26,7 +26,7 @@ namespace Service
             try
             {
                 ConnectionInfo connectionInfo = ConnectionInfo.Instance;
-                connection = new MySqlConnection(connectionInfo.SqlServerConnectionString);
+                connection = new MySqlConnection(connectionInfo.MySQLConnectionString);
                 connection.Open();
                 transaction = connection.BeginTransaction();
             }

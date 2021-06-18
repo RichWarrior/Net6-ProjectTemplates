@@ -12,4 +12,16 @@
     <ProjectReference Include="..\Environment\Environment.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="ocelot.development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="ocelot.production.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="ocelot.staging.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

@@ -40,6 +40,6 @@ namespace Core.Utilities
         /// <summary>
         /// 
         /// </summary>
-        public string SqlServerConnectionString => (string)configuration.GetValue(typeof(string), "sql_server_connection_string");
+        public string MySQLConnectionString => (string)configuration.GetValue(typeof(string), "sql_server_connection_string");
     }
 }
