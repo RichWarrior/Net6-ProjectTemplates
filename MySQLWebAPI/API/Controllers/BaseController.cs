@@ -7,7 +7,7 @@ using Microsoft.Extensions.Localization;
 using System;
 using System.Net;
 
-namespace API.Controllers
+namespace $safeprojectname$.Controllers
 {
     /// <summary>
     /// 

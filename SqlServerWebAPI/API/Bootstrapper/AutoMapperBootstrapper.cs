@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace API.Bootstrapper
+namespace $safeprojectname$.Bootstrapper
 {
     /// <summary>
     /// 

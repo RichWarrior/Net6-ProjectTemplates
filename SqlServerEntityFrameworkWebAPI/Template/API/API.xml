@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>test.$safeprojectname$</name>
+    </assembly>
+    <members>
+        <member name="T:test.$safeprojectname$.AutoMapper.MapperProfile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:test.$safeprojectname$.Bootstrapper.AutoMapperBootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:test.$safeprojectname$.Bootstrapper.AutoMapperBootstrapper.AddMapper(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:test.$safeprojectname$.Bootstrapper.DependencyInjectionBootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:test.$safeprojectname$.Bootstrapper.DependencyInjectionBootstrapper.AddDependencyInjection(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:test.$safeprojectname$.Bootstrapper.FluentValidatorBootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:test.$safeprojectname$.Bootstrapper.FluentValidatorBootstrapper.AddFluentValidatorBootstrapper(Microsoft.Extensions.DependencyInjection.IMvcBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:test.$safeprojectname$.Bootstrapper.LocalizationBootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:test.$safeprojectname$.Bootstrapper.LocalizationBootstrapper.AddLocalizationMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="M:test.$safeprojectname$.Bootstrapper.LocalizationBootstrapper.UseLocalizationMessage(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:test.$safeprojectname$.Bootstrapper.SwaggerBootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:test.$safeprojectname$.Bootstrapper.SwaggerBootstrapper.IsDevelopment">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:test.$safeprojectname$.Bootstrapper.SwaggerBootstrapper.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="M:test.$safeprojectname$.Bootstrapper.SwaggerBootstrapper.UseSwaggerGen(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:test.$safeprojectname$.Controllers.BaseController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:test.$safeprojectname$.Controllers.BaseController.uow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:test.$safeprojectname$.Controllers.BaseController.mapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:test.$safeprojectname$.Controllers.BaseController.localizer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:test.$safeprojectname$.Controllers.BaseController.#ctor(Core.Interfaces.IUnitOfWork,AutoMapper.IMapper,Microsoft.Extensions.Localization.IStringLocalizer{test.$safeprojectname$.BaseResource})">
+            <summary>
+            
+            </summary>
+            <param name="_uow"></param>
+            <param name="_mapper"></param>
+            <param name="_localizer"></param>
+        </member>
+        <member name="M:test.$safeprojectname$.Controllers.BaseController.Ok``1(``0,System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="data"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:test.$safeprojectname$.Controllers.BaseController.NotFound``1(``0,System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="data"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:test.$safeprojectname$.Models.BaseResult`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:test.$safeprojectname$.Models.BaseResult`1.Data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:test.$safeprojectname$.Models.BaseResult`1.Message">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:test.$safeprojectname$.Models.BaseResult`1.StatusCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:test.$safeprojectname$.Models.BaseResult`1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:test.$safeprojectname$.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:test.$safeprojectname$.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:test.$safeprojectname$.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:test.$safeprojectname$.BaseResource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:test.$safeprojectname$.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:test.$safeprojectname$.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:test.$safeprojectname$.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:test.$safeprojectname$.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:test.$safeprojectname$.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

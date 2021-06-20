@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace API.AutoMapper
+namespace $safeprojectname$.AutoMapper
 {
     /// <summary>
     /// 

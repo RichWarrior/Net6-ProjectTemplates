@@ -1,0 +1,28 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+	<TemplateData>
+		<Name>.NET 6 EntityFrameworkCore MySQL Unit of Work Project Template</Name>
+		<Description>Create Quickly .NET 6 EntityFrameworkCore MySQL Unit of Work API</Description>
+		<Icon>Icon.ico</Icon>
+		<ProjectType>CSharp</ProjectType>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectCollection>
+			<ProjectTemplateLink ProjectName="$projectname$.API">
+				API\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="APIGateway">
+				APIGateway\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="Core">
+				Core\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="Environment">
+				Environment\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="Service">
+				Service\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+		</ProjectCollection>
+	</TemplateContent>
+</VSTemplate>

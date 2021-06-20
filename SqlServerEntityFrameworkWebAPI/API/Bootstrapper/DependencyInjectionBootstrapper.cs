@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Service;
 
-namespace API.Bootstrapper
+namespace $safeprojectname$.Bootstrapper
 {
     /// <summary>
     /// 

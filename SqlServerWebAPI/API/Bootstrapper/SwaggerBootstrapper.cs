@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace API.Bootstrapper
+namespace $safeprojectname$.Bootstrapper
 {
     /// <summary>
     /// 

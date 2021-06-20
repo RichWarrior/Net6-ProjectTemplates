@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
 
-namespace API.Bootstrapper
+namespace $safeprojectname$.Bootstrapper
 {
     /// <summary>
     /// 
