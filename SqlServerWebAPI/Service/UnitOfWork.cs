@@ -61,30 +61,6 @@ namespace Service
             return rtn;
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public bool Rollback()
-        {
-            bool rtn = false;
-            try
-            {
-                transaction?.Rollback();
-                rtn = true;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            finally
-            {
-                transaction?.Dispose();
-                transaction = connection.BeginTransaction();
-                resetRepositories();
-            }
-            return rtn;
-        }
 
         /// <summary>
         /// 
