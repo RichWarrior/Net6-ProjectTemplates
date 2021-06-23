@@ -23,6 +23,9 @@
 			<ProjectTemplateLink ProjectName="Service">
 				Service\MyTemplate.vstemplate
 			</ProjectTemplateLink>
+				<ProjectTemplateLink ProjectName="Channels">
+				Channels\MyTemplate.vstemplate
+			</ProjectTemplateLink>
 		</ProjectCollection>
 	</TemplateContent>
 </VSTemplate>
